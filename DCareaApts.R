@@ -57,7 +57,7 @@ shinyApp(
     # Incremental changes to the map (in this case, replacing the
     # circles when a new color is chosen) should be performed in
     # an observer. Each independent set of things that can change
-    # should be managed in its own observer.
+    # should be managed in its own observer
     observe({
         pal <- colorpal()
         thedata <- filteredData()
