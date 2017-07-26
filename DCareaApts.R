@@ -1,3 +1,5 @@
+#Draft of the app for visualization
+
 library(leaflet)
 library(shiny)
 library(ggplot2)
